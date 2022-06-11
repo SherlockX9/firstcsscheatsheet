@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+
+.monofont{
+    font-family: monospace;
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+main{
+    padding-top: 80px;
+    background-color: rgb(1, 45, 83);
+    min-height: 800px;
+    
+}
+table{
+    table-layout: fixed;
+
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px  solid gray;
+    text-align: center;
+   
+}
+
+table th{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    color:white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+}
+
+table th,td{
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+
+table td{
+    background-color: rgb(172, 216, 255);
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table th:nth-child(1){
+    width: 25%;
+}
+table th:nth-child(2){
+    width: 25%;
+}
+table th:nth-child(3){
+    width: 25%;
+}
+table th:nth-child(4){
+    width: 25%;
+}
+
+
+footer{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+
+footer p{
+    display: inline-block;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+

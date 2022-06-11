@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>My CSS cheatsheet</title>
+</head>
+<body>
+    <header>
+    <h1>Cheatsheet on CSS selectors and specificity</h1>
+    <p>On this table you'll find the various forms of CSS selectors, what they mean, and 
+        how to use them. With examples, of course!
+    </p>
+    </header>
+
+    <main>
+
+        <table>
+          <tr id="tableheadings">
+                <th>Selector type</th>
+                <th>Creating selector</th>
+                <th>Accessing  selector</th>
+                <th>Selector Specifity</th>
+                
+          </tr>
+          <tr>
+              <td>Everything in the html doc: '*' </td>
+              <td colspan="2" class="monofont"> No specific HTML required for this,
+                simply use: *{css-styling here} to apply to the whole HTML doc
+              </td>
+              <td>Least specific, only applies if the rest of the selectors shown
+                aren't used
+              </td>
+              <td></td>
+              <td></td>
+          </tr>
+          <tr>
+            <td>Class </td>
+            <td class="monofont"> &lt;tag class = "<em>classname</em>"&gt;</td>
+            <td class="monofont"> .<em>classname</em>{css-styling here}</td>
+            <td>Overrides the '*' selector</td>
+           
+        </tr>
+        <tr>
+            <td> Element tags</td>
+            <td class="monofont"> Element itself is the selector: e.g &lt;p&gt;,&lt;footer&gt;  </td>
+            <td class="monofont"> .<em>elementname</em>{css-styling here}</td>
+            <td>Overrides the '*' and Class selector</td>
+            
+        </tr>
+        <tr>
+            <td> ID selectors</td>
+            <td class="monofont">&lt;tag id = "<em>yourIDname</em>"&gt;</td>
+            <td class="monofont"> #<em>idname</em>{css-styling here}</td>
+            <td>Overrides any other selector</td>
+          
+        </tr>
+        <tr>
+            <td> Elements within a class</td>
+            <td colspan="2" class="monofont"> Say you have &lt;p&gt tag within a class called 'sectionOne': .sectionOne p{css-styling here}   </td>
+            <td>Overrides all selectors except the id selector</td>
+            <td></td>
+            
+        </tr>
+        </table>
+
+    </main>
+    <footer> <p>Copyright 2022</p> <p>Sul</p> <p>Contact: contact.m3self@gmail.com</p></footer>
+</body>
+</html>
